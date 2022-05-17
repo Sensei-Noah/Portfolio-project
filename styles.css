@@ -74,22 +74,6 @@
   color: rgb(255, 255, 255);
   background-color: rgb(219, 20, 60);
 }
-/* .navbar {
-  display: flex;
-  padding: 1rem;
-  margin: 0;
-}
-.nav-menu{
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-a {
-  display: block;
-  padding: 8px;
-} */
 .navbar-container {
   list-style-type: none;
   margin: 0;
@@ -101,7 +85,7 @@ a {
 li {
   float: right;
 }
-.nav-logo{
+.nav-logo {
   float: left;
 }
 
@@ -118,5 +102,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
