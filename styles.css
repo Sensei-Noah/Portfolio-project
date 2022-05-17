@@ -74,7 +74,7 @@
   color: rgb(255, 255, 255);
   background-color: rgb(219, 20, 60);
 }
-.navbar {
+/* .navbar {
   display: flex;
   padding: 1rem;
   margin: 0;
@@ -86,10 +86,37 @@
     padding: 0;
     overflow: hidden;
 }
-li {
-  float: left;
-}
 a {
   display: block;
   padding: 8px;
+} */
+.navbar-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+.nav-logo{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
