@@ -88,6 +88,9 @@ li {
 .nav-logo {
   float: left;
 }
+.nav-menu {
+  list-style-type: none;
+}
 
 li a {
   display: block;

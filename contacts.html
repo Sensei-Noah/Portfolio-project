@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/0f83e5d3b7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<script src="https://kit.fontawesome.com/0f83e5d3b7.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<nav class="">
+			<div class="navbar-container">
+				<li class="nav-logo">
+					<a class="nav-logo" href="/">
+						Nojus
+						<i class="fa fa-terminal"></i>
+					</a>
+				</li>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a class="nav-links" href="/index.html" aria-current="page">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-links" href="/projects.html" aria-current="page">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-links" href="/contacts.html" aria-current="page">Contacts</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-    <nav class="">
-      <div class="navbar-container">
-        <li class="nav-logo">
-          <a class="nav-logo" href="/">
-            Nojus
-            <i class="fa fa-terminal"></i>
-          </a>
-        </li>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a class="nav-links" href="/index.html" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-links" href="/projects.html" aria-current="page">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-links" href="/contacts.html" aria-current="page">Contacts</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+		<section id="hero">
+			<div class="main-container d-flex">
+				<div class="text-light container row m-0">
+					<div>
+						<h1>About me</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam adipisci enim
+							consequuntur sapiente sequi facere totam illum, unde qui vero harum inventore praesentium
+							beatae quas ad nesciunt cum dicta accusantium.
+						</p>
+					</div>
+				</div>
 
-    
-    <section id="hero">
-      <div class="main-container d-flex">
-
-        <div class="text-light container row m-0">
-          <div>
-            <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam adipisci enim consequuntur sapiente sequi facere totam illum, unde qui vero harum inventore praesentium beatae quas ad nesciunt cum dicta accusantium.</p>
-          </div>
-          
-        </div>
-
-        <div class="container row m-0">
-          <ul class="list-group list-group-flush fload-end border border-3 rounded col-6 ms-auto">
-            <h1>Contacts</h1>
-            <hr class="bg-light solid">
-            <li class="list-group-item bg-transparent text-light">Nojus M</li>
-            <li class="list-group-item bg-transparent text-light">email</li>
-            <li class="list-group-item bg-transparent text-light">Location</li>
-            <li class="list-group-item bg-transparent text-light">A fourth item</li>
-            <li class="list-group-item bg-transparent text-light">And a fifth one</li>
-          </ul>
-        </div>
-        
-      </div>
-      </section>
-    
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+				<div class="container row m-0">
+					<ul class="list-group list-group-flush fload-end border-3 rounded col-6 ms-auto">
+						<h1>Contacts</h1>
+						<hr class="bg-light solid" />
+						<li class="list-group-item bg-transparent text-light">
+							<i class="bi bi-person-circle me-1"></i>Nojus Murauskas
+						</li>
+						<li class="list-group-item bg-transparent text-light">
+							<i class="bi bi-envelope me-1"></i> p.nojusmurauskas@gmail.com
+						</li>
+						<li class="list-group-item bg-transparent text-light">
+							<i class="bi bi-geo-alt me-1"></i> Kaunas, Lietuva
+						</li>
+						<li class="list-group-item bg-transparent text-light">
+							<a class="btn text-light" target="_blank" href="https://github.com/Sensei-Noah">
+								<i class="bi bi-github me-1"></i>Github
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"
+	></script>
 </html>
 
 <!-- for later use -->
